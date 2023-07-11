@@ -1,0 +1,14 @@
+.buttonTheme {
+  display: flex;
+  padding: var(--padding-small);
+  gap: 5px;
+  font-size: large;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--color-dark-lemon);
+}
+
+.buttonTheme:hover {
+  opacity: 0.9;
+}

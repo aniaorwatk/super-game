@@ -1,17 +1,14 @@
-"use client";
-
-import { useMainContext } from "@/providers/MainProvider";
-import { useEffect } from "react";
+import Logo from "./../Logo/Logo";
+import ThemeButton from "../ThemeButton/ThemeButton";
 import styles from "./Header.module.css";
 
 const Header = () => {
-  const { setName } = useMainContext();
-
-  useEffect(() => {
-    setName("ania");
-  }, [setName]);
-
-  return <header className={styles.header}>header</header>;
+  return (
+    <header className={styles.header}>
+      <Logo />
+      <ThemeButton />
+    </header>
+  );
 };
 
 export default Header;

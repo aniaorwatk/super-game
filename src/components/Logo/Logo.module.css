@@ -1,0 +1,21 @@
+.wrapperLogo {
+  position: relative;
+  height: 60px;
+}
+
+.superPart,
+.gamePart {
+  position: absolute;
+}
+
+.superPart {
+  font-size: 40px;
+  color: var(--color-blood);
+}
+
+.gamePart {
+  top: 22px;
+  left: 40px;
+  font-size: 30px;
+  color: var(--color-dark-lemon);
+}

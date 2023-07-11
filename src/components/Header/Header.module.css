@@ -1,4 +1,17 @@
 .header {
-  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
   align-self: flex-start;
+  width: 100vw;
+  padding: var(--padding-small) var(--padding-medium);
+  box-shadow: 4px 4px 4px rgb(96, 84, 84);
+  z-index: 2;
+}
+
+@media only screen and (min-width: 500px) {
+  .header {
+    padding: var(--padding-medium);
+  }
 }

@@ -1,11 +1,12 @@
-"use client";
-
-import { useMainContext } from "@/providers/MainProvider";
+import labels from "../../../public/labels";
 import styles from "./Footer.module.css";
 
 const Footer = () => {
-  const { name } = useMainContext();
-  return <footer className={styles.footer}>footer {name}</footer>;
+  return (
+    <footer className={styles.footer}>
+      <p>{labels.footer.create}</p>
+    </footer>
+  );
 };
 
 export default Footer;
