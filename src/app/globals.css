@@ -1,4 +1,15 @@
 :root {
+  --background: rgb(51, 162, 64);
+  --foreground: black;
+  --color-blood: #754847;
+  --color-orange: #cf8049;
+  --color-dark-lemon: #dba644;
+  --color-light-lemon: #f4ee9f;
+  --color-success: #5aa87d;
+  --color-dark-gray: rgb(35, 34, 34);
+
+  --padding-small: 5px;
+  --padding-medium: 20px;
 }
 
 * {
@@ -12,4 +23,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
+}
+
+.dark {
+  background: var(--color-dark-gray);
 }
